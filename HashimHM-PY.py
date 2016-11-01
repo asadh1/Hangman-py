@@ -84,4 +84,4 @@ def start_hangman(file_path = None):
           print("Sorry, you’ve run out of turns.The word was: {}.\n[Game Ended]".format(word))
           break
         continue
-start_hangman("/Users/{}/Downloads/hangman-py-master/hangman_words.txt".format(pwd.getpwuid(os.getuid())[0]))
+start_hangman("/Users/{}/Downloads/Hangman-py-master/hangman_words.txt".format(pwd.getpwuid(os.getuid())[0]))
