@@ -4,7 +4,6 @@ import os
 import pwd
 import random
 import re
-import sys
 
 # Functions
 def clear():
@@ -84,5 +83,5 @@ def start_hangman(file_path = None):
           print("Sorry, you’ve run out of turns.The word was: {}.\n[Game Ended]".format(word))
           break
         continue
-# Change this if you move the file or if you're not on a mac
-start_hangman("/Users/{}/Downloads/Hangman-py-master/hangman_words.txt".format(pwd.getpwuid(os.getuid())[0]))
+ 
+start_hangman("hangman_words.txt")
